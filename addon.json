@@ -2,7 +2,7 @@
     "display_name": "Set Ease Factor",
     "module_name": "set-ease",
     "repo_name": "anki-set-ease",
-    "ankiweb_id": "",
+    "ankiweb_id": "set-ease",
     "author": "RisingOrange",
     "conflicts": [],
     "targets": [
