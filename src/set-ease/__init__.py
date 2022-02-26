@@ -9,10 +9,9 @@ from aqt.gui_hooks import (
 from aqt.qt import *
 from aqt.reviewer import Reviewer
 
+from .compat import setup_compat_aliases
 from .consts import ANKI_VERSION_TUPLE
 from .gui.anking_widgets import add_anking_elements
-from .compat import setup_compat_aliases
-
 
 # not available in older Anki versions
 try:
@@ -26,7 +25,7 @@ act = None  # stores QAction so it doesn't get garbage collected
 
 
 def on_browser_context_menu(browser: Browser, menu: QMenu):
-    if ANKI_VERSION_TUPLE >= (2, 1, 45) and not browser.table.is_notes_mode():
+    if ANKI_VERSION_TUPLE >= (2, 1, 45) and browser.table.is_notes_mode():
         return
 
     if not browser.selected_cards():
@@ -141,4 +140,3 @@ class EaseEditWindow(QDialog):
         if ANKI_VERSION_TUPLE < (2, 1, 45):
             mw.col.reset()
         mw.reset()
-# 
