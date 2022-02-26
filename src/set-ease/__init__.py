@@ -88,7 +88,7 @@ class EaseEditWindow(QDialog):
 
         self.spin_box_layout = QHBoxLayout()
         self.spin_box = QSpinBox()
-        self.spin_box.setMinimum(0)
+        self.spin_box.setMinimum(131)
         self.spin_box.setMaximum(10_000)
         self.spin_box.setSingleStep(10)
         self.spin_box.setMaximumWidth(100)
