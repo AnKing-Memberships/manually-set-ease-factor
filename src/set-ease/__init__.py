@@ -137,6 +137,8 @@ class EaseEditWindow(QDialog):
 
         self.close()
 
-        if ANKI_VERSION_TUPLE < (2, 1, 45):
-            mw.col.reset()
-        mw.reset()
+        mw.col.reset()
+        if ANKI_VERSION_TUPLE >= (2, 1, 45):
+            mw.update_undo_actions()
+        else:
+            mw.reset()
