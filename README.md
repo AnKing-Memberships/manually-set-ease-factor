@@ -5,7 +5,9 @@ You must be on Anki *** to use this add-on
 *** Add-on description
 
 <div><b>Screenshots</b></div>
-<img src="https://raw.githubusercontent.com/ankipalace/anki-field-autocomplete/master/screenshots/dropdown.gif?raw=true">
+<img src="https://raw.githubusercontent.com/AnKingMed/anki-set-ease/master/screenshots/EditEase.gif?raw=true">
+<img src="https://raw.githubusercontent.com/AnKingMed/anki-set-ease/master/screenshots/Browser.jpg?raw=true">
+<img src="https://raw.githubusercontent.com/AnKingMed/anki-set-ease/master/screenshots/Reviewer.jpg?raw=true">
   <br>
   <br>
 
