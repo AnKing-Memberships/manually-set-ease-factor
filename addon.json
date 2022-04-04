@@ -1,8 +1,8 @@
 {
-    "display_name": "Set Ease Factor",
+    "display_name": "Manually Set Ease Factor",
     "module_name": "set-ease",
-    "repo_name": "anki-set-ease",
-    "ankiweb_id": "set-ease",
+    "repo_name": "manually-set-ease-factor",
+    "ankiweb_id": "566075556",
     "author": "RisingOrange",
     "conflicts": [],
     "targets": [
