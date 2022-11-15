@@ -11,7 +11,6 @@ from aqt.reviewer import Reviewer
 
 from .compat import setup_compat_aliases
 from .consts import ANKI_VERSION_TUPLE
-from .gui.anking_widgets import add_anking_elements
 
 # not available in older Anki versions
 try:
