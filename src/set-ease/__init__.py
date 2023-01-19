@@ -109,8 +109,6 @@ class EaseEditWindow(QDialog):
         self.save_btn.clicked.connect(self._on_save)
         self.btn_layout.addWidget(self.save_btn)
 
-        add_anking_elements(self)
-
     def _on_cancel(self):
         self.close()
 
