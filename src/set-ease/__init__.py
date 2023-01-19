@@ -11,6 +11,7 @@ from aqt.reviewer import Reviewer
 
 from .compat import setup_compat_aliases
 from .consts import ANKI_VERSION_TUPLE
+from .gui.menu import setup_menu
 
 # not available in older Anki versions
 try:
@@ -19,6 +20,7 @@ except:
     pass
 
 setup_compat_aliases()
+setup_menu()
 
 act = None  # stores QAction so it doesn't get garbage collected
 
